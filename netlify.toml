@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/gitee-images/*"
+  to = "https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/:splat"  # 替换占位符
+  status = 200
+  force = true
+  headers = {Referer = ""}  # 清除Referer头
