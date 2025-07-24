@@ -22,11 +22,11 @@ languages:
                 subtitle: Example description
     zh-cn:
         languageName: 中文
-        title: 演示站点
+        title: Verse的博客
         weight: 2
         params:
             sidebar:
-                subtitle: 演示说明
+                subtitle: 一名大二计科学生的记录
     ar:
         languageName: عربي
         languagedirection: rtl
@@ -72,7 +72,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/avatar.jpg
 
     article:
         math: false

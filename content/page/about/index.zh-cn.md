@@ -7,4 +7,4 @@ menu:
             icon: user
 ---
 
-This is a test page for i18n support.
+这个人很懒，什么都没留下

@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="面向对象程序设计：c++">
 <meta property='og:description' content="面向对象程序设计：复习提纲 C++的初步知识 函数 C++程序由函数驱动，主函数(main函数)、普通函数（功能函数）、主调函数、被调函数等概念及其关系； 每个 C++ 程序都有且只有一个 main函数，程序运行从main函数开始到main函数结束，main函数只能是主调函数 若函数 f1() 调用函数 f2(), 则称 f1()为主调函数 , f2()为被调函数 函数的定义、调用、声明（原型）的写法；理解函数调用机制； 被调函数出现在主调函数之后时 需进行函数声明 理解函数间数据联系的渠道（参数、返回值、全局变量） 全局变量可以被函数体直接访问，参数只能在函数体中访问，返回值是函数体返回的结果 C++特有函数 inline 内联函数的思想 通过关键字 inline 将一个函数声明成内联函数后，编译器会将该函数的调用处理成编译前的代码替换而不是像普通函数在编译时的控制转移从而提高了效率。 不会再开空间生成？inline不是一定展开，只是给编译器建议，具体是否展开由编译器展开，递归函数不能展开 重载的概念、分类、区分依据、解析次序（结合第 4 章） 概念：在不同类型上做类似运算而又用相同名字的情况称为重载，即重新定义语义。 分类：函数重载，运算符重载，构造函数重载（注意函数重载必须在一个同一个域） 区分依据：参数个数，类型，顺序三者种必须至少有一种不同（返回类型不能单独作为重载解析的依据 ） 解析次序： \u200b\t（1）寻找一个严格的匹配\n\u200b\t（2）通过内部转换寻求一个匹配\n\u200b\t（3）通过用户定义的转换寻求一个匹配\n1 2 3 4 5 6 7 8 void print(int); void print(double); int main(void){ print(1);\t//int print(1.0);\t//double print(&#39;a&#39;);\t//int printf(3.1415f);\t//double } 带参数默认值的函数的写法，默认参数的定义次序 写法：void func(int a, int b =2, int c =3, int d =4);\n">
 <meta property='og:url' content='https://example.com/p/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1c-/'>
-<meta property='og:site_name' content='演示站点'>
+<meta property='og:site_name' content='Verse的博客'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='C&#43;&#43;' /><meta property='article:tag' content='对象' /><meta property='article:published_time' content='2025-07-24T14:59:47&#43;08:00'/><meta property='article:modified_time' content='2025-07-24T14:59:47&#43;08:00'/>
 <meta name="twitter:title" content="面向对象程序设计：c++">
 <meta name="twitter:description" content="面向对象程序设计：复习提纲 C++的初步知识 函数 C++程序由函数驱动，主函数(main函数)、普通函数（功能函数）、主调函数、被调函数等概念及其关系； 每个 C++ 程序都有且只有一个 main函数，程序运行从main函数开始到main函数结束，main函数只能是主调函数 若函数 f1() 调用函数 f2(), 则称 f1()为主调函数 , f2()为被调函数 函数的定义、调用、声明（原型）的写法；理解函数调用机制； 被调函数出现在主调函数之后时 需进行函数声明 理解函数间数据联系的渠道（参数、返回值、全局变量） 全局变量可以被函数体直接访问，参数只能在函数体中访问，返回值是函数体返回的结果 C++特有函数 inline 内联函数的思想 通过关键字 inline 将一个函数声明成内联函数后，编译器会将该函数的调用处理成编译前的代码替换而不是像普通函数在编译时的控制转移从而提高了效率。 不会再开空间生成？inline不是一定展开，只是给编译器建议，具体是否展开由编译器展开，递归函数不能展开 重载的概念、分类、区分依据、解析次序（结合第 4 章） 概念：在不同类型上做类似运算而又用相同名字的情况称为重载，即重新定义语义。 分类：函数重载，运算符重载，构造函数重载（注意函数重载必须在一个同一个域） 区分依据：参数个数，类型，顺序三者种必须至少有一种不同（返回类型不能单独作为重载解析的依据 ） 解析次序： \u200b\t（1）寻找一个严格的匹配\n\u200b\t（2）通过内部转换寻求一个匹配\n\u200b\t（3）通过用户定义的转换寻求一个匹配\n1 2 3 4 5 6 7 8 void print(int); void print(double); int main(void){ print(1);\t//int print(1.0);\t//double print(&#39;a&#39;);\t//int printf(3.1415f);\t//double } 带参数默认值的函数的写法，默认参数的定义次序 写法：void func(int a, int b =2, int c =3, int d =4);\n">
@@ -56,7 +56,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu_f509edb42ecc0ebd.png" width="300"
+                        <img src="/img/avatar_hu_edb551691e210623.jpg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -69,8 +69,8 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">演示站点</a></h1>
-            <h2 class="site-description">演示说明</h2>
+            <h1 class="site-name"><a href="/">Verse的博客</a></h1>
+            <h2 class="site-description">一名大二计科学生的记录</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -672,7 +672,7 @@
 <p>使用setw()前记得导入 <iomanip> 头文件</p>
 </li>
 </ul>
-<p><img src="/gitee-img/20250724155123536.png"
+<p><img src="https://verseblogimg.netlify.app/202507241445753.png"
 	
 	
 	
@@ -952,7 +952,7 @@
 <li>五种作用域：局部作用域，函数作用域，函数原型作用域，文件作用域，类作用域</li>
 <li>局部作用域：当标识符的声明出现在由一对花括号括起来的一段程序(块)内时 该标识符的作用域从声明点开始，到块结束处为止;</li>
 </ul>
-<p><img src="https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155142658.png"
+<p><img src="https://verseblogimg.netlify.app/202507241446114.png"
 	
 	
 	
@@ -1165,7 +1165,7 @@
 <p>半开放？体现在<strong>保护成员可以背派生类的成员函数访问</strong>，而私有则不行；</p>
 </li>
 </ul>
-<p><img src="https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155155856.png"
+<p><img src="https://verseblogimg.netlify.app/202507241447167.png"
 	
 	
 	
@@ -2648,7 +2648,7 @@
 <li>保护继承：基类的公用成员和保护成员在派生类中成了私有成员，其私有成员仍为基类私有</li>
 <li>私有继承：基类的公用成员和保护成员在派生类中成了保护成员，其私有成员仍为基类私有</li>
 </ul>
-<p><img src="https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155216946.png"
+<p><img src="https://verseblogimg.netlify.app/202507241447964.png"
 	
 	
 	
@@ -3127,7 +3127,7 @@
 <p>赋值兼容规则：派生类的值赋给基类对象，用基类对象时可以用子类对象代替；</p>
 </li>
 </ul>
-<p><img src="https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155230860.png"
+<p><img src="https://verseblogimg.netlify.app/202507241447722.png"
 	
 	
 	
@@ -3162,7 +3162,7 @@
 <li><strong>强制多态（类型强制）</strong>，可以简单理解为强制类型转换；</li>
 <li><strong>重载多态（重载）</strong>，可以简单理解为函数重载；</li>
 </ol>
-<p><img src="https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155240110.png"
+<p><img src="https://verseblogimg.netlify.app/202507241447256.png"
 	
 	
 	

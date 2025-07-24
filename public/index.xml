@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>演示站点</title>
+        <title>Verse的博客</title>
         <link>https://example.com/</link>
-        <description>Recent content on 演示站点</description>
+        <description>Recent content on Verse的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
@@ -161,7 +161,7 @@
 &lt;p&gt;使用setw()前记得导入 &lt;iomanip&gt; 头文件&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/gitee-img/20250724155123536.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://verseblogimg.netlify.app/202507241445753.png&#34;
 	
 	
 	
@@ -441,7 +441,7 @@
 &lt;li&gt;五种作用域：局部作用域，函数作用域，函数原型作用域，文件作用域，类作用域&lt;/li&gt;
 &lt;li&gt;局部作用域：当标识符的声明出现在由一对花括号括起来的一段程序(块)内时 该标识符的作用域从声明点开始，到块结束处为止;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155142658.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://verseblogimg.netlify.app/202507241446114.png&#34;
 	
 	
 	
@@ -654,7 +654,7 @@
 &lt;p&gt;半开放？体现在&lt;strong&gt;保护成员可以背派生类的成员函数访问&lt;/strong&gt;，而私有则不行；&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155155856.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://verseblogimg.netlify.app/202507241447167.png&#34;
 	
 	
 	
@@ -2137,7 +2137,7 @@
 &lt;li&gt;保护继承：基类的公用成员和保护成员在派生类中成了私有成员，其私有成员仍为基类私有&lt;/li&gt;
 &lt;li&gt;私有继承：基类的公用成员和保护成员在派生类中成了保护成员，其私有成员仍为基类私有&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155216946.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://verseblogimg.netlify.app/202507241447964.png&#34;
 	
 	
 	
@@ -2616,7 +2616,7 @@
 &lt;p&gt;赋值兼容规则：派生类的值赋给基类对象，用基类对象时可以用子类对象代替；&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155230860.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://verseblogimg.netlify.app/202507241447722.png&#34;
 	
 	
 	
@@ -2651,7 +2651,7 @@
 &lt;li&gt;&lt;strong&gt;强制多态（类型强制）&lt;/strong&gt;，可以简单理解为强制类型转换；&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;重载多态（重载）&lt;/strong&gt;，可以简单理解为函数重载；&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155240110.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://verseblogimg.netlify.app/202507241447256.png&#34;
 	
 	
 	
@@ -3206,7 +3206,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+        <description>&lt;p&gt;这个人很懒，什么都没留下&lt;/p&gt;
 </description>
         </item>
         
