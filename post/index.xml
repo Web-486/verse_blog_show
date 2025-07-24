@@ -7,12 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 21 Jul 2025 11:14:48 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>面向对象程序设计</title>
-        <link>https://example.com/p/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</link>
-        <pubDate>Mon, 21 Jul 2025 11:14:48 +0800</pubDate>
+        <lastBuildDate>Thu, 24 Jul 2025 14:59:47 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>面向对象程序设计：c&#43;&#43;</title>
+        <link>https://example.com/p/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1c-/</link>
+        <pubDate>Thu, 24 Jul 2025 14:59:47 +0800</pubDate>
         
-        <guid>https://example.com/p/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</guid>
+        <guid>https://example.com/p/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1c-/</guid>
         <description>&lt;h1 id=&#34;面向对象程序设计复习提纲&#34;&gt;面向对象程序设计：复习提纲
 &lt;/h1&gt;&lt;h2 id=&#34;c的初步知识&#34;&gt;C++的初步知识
 &lt;/h2&gt;&lt;h3 id=&#34;函数&#34;&gt;函数
@@ -161,7 +161,7 @@
 &lt;p&gt;使用setw()前记得导入 &lt;iomanip&gt; 头文件&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/Pictures/typora/image-20250604175801350.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155123536.png&#34;
 	
 	
 	
@@ -441,7 +441,7 @@
 &lt;li&gt;五种作用域：局部作用域，函数作用域，函数原型作用域，文件作用域，类作用域&lt;/li&gt;
 &lt;li&gt;局部作用域：当标识符的声明出现在由一对花括号括起来的一段程序(块)内时 该标识符的作用域从声明点开始，到块结束处为止;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/Pictures/typora/image-20250604190628030.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155142658.png&#34;
 	
 	
 	
@@ -654,7 +654,7 @@
 &lt;p&gt;半开放？体现在&lt;strong&gt;保护成员可以背派生类的成员函数访问&lt;/strong&gt;，而私有则不行；&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/Pictures/typora/image-20250609164334118.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155155856.png&#34;
 	
 	
 	
@@ -2137,7 +2137,7 @@
 &lt;li&gt;保护继承：基类的公用成员和保护成员在派生类中成了私有成员，其私有成员仍为基类私有&lt;/li&gt;
 &lt;li&gt;私有继承：基类的公用成员和保护成员在派生类中成了保护成员，其私有成员仍为基类私有&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/Pictures/typora/a1cd4c88d1b8df0fd63bf1b669c4cdd7.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155216946.png&#34;
 	
 	
 	
@@ -2616,7 +2616,7 @@
 &lt;p&gt;赋值兼容规则：派生类的值赋给基类对象，用基类对象时可以用子类对象代替；&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/Pictures/typora/image-20250610210422408.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155230860.png&#34;
 	
 	
 	
@@ -2651,7 +2651,7 @@
 &lt;li&gt;&lt;strong&gt;强制多态（类型强制）&lt;/strong&gt;，可以简单理解为强制类型转换；&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;重载多态（重载）&lt;/strong&gt;，可以简单理解为函数重载；&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/Pictures/typora/59ada3dc1dcb516f02feb7ac093e176c.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/ammonium-sulphate/my-picture-bed/raw/master/20250724155240110.png&#34;
 	
 	
 	
